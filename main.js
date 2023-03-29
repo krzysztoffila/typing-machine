@@ -12,7 +12,7 @@ const addLetter = () => {
 }
 const indexTyping = setInterval(addLetter, time);
 
-const cursorTime = 500
+const cursorTime = 400
 const cursorAnimation = () => {
     spnCursor.classList.toggle("active")
 }
